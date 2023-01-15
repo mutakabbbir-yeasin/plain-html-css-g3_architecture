@@ -56,12 +56,16 @@ nav{
 /* Media Query */
 
 @media screen and (max-width: 576px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
     .header_div_1{
     justify-content: center;
     text-align: center;
 }
     .header_div_2{
-        margin: 20px ;
+        margin: 20px 0;
     }
     .header_div_2 > img{
         max-width: 90%;
