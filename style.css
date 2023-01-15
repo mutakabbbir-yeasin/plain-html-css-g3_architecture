@@ -26,12 +26,11 @@ nav li{
     background-color: #FFF4E7;
     padding: 20px 0;
 }
-nav{
-    display: flex;
-}
+
 .header_div_1{
-    justify-content: center;
+    width: 70%;
     text-align: center;
+    margin: 0 auto;
 }
 .header_btn{
     height: 50px;
@@ -338,6 +337,11 @@ nav > ul{
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 20px;
+}
+.section_two_para{
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
 }
 .box{
     width: 250px;
