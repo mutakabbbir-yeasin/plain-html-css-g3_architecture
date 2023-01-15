@@ -52,27 +52,26 @@ nav{
     margin: 80px auto;
     width: 70%;
 }
-.section_2nd_1st_div{
+.section_one_1st_div{
     width: 55%;
 }
-.section_2nd_img{
+.section_one_img{
     height: 225px;
     width: 230px;
     margin: 5px;
 }
-.section_2nd_2nd_div{
+.section_one_2nd_div{
     width: 45%;
 }
-.section_2nd_texts{
-    width: 400px;
+.section_one_texts{
+    width: 90%;
     text-align: left;
-    margin: 20% 0;
-    padding: 0 10px;
+    margin: 20% auto;
 }
-.section_2nd_texts>h2{
+.section_one_texts>h2{
     font-size: 30px;
 }
-.section_2nd_texts>p{
+.section_one_texts>p{
     font-size: 20px;
     line-height: 25px;
     color: #727272;
@@ -233,15 +232,12 @@ nav{
 
 
 
-/* Media Query */
+/********************** Media Query ********************/
 
 /* header starts */
 
 @media screen and (max-width: 576px) {
-    body{
-        margin: 0;
-        padding: 0;
-    }
+   
     .header_div_1{
     justify-content: center;
     text-align: center;
@@ -263,26 +259,26 @@ nav{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
-.section_2nd_1st_div > img{
-        width: 100%;
+.section_one_1st_div > img{
+        width: 80%;
         height: auto;
-        width: 450px;
-        border-radius: 4px;
-    }
+        border-radius: 5px;
+}
 
-.section_2nd_1st_div, .section_2nd_1st_div{
+.section_one_1st_div{
     width: 100%;
 }
-.section_2nd_texts{
-    justify-content: center;
+.section_one_2nd_div{
+    width: 100%;
+}
+.section_one_texts{
     text-align: center;
-    margin: 5px auto;
 }
 
-.section_2nd_texts> h2{
+.section_one_texts> h2{
     font-size: 25px;
 }
-.section_2nd_texts> p{
+.section_one_texts> p{
     font-size: 16px;
 }
 
@@ -293,6 +289,11 @@ nav{
 .section_two{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    /* width: 90%; */
+}
+.section_two_left{
+    width: 100%;
+    /* padding: 10px 20px; */
 }
 .section_two_border{
     height: 70px;
@@ -302,30 +303,37 @@ nav{
     padding: 5px 20px;
     font-size: 25px;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 .box{
-    height: 115px;
+    width: 250px;
+    height: 150px;
 }
 .section_two_right{
-    width: 90%;
-    margin: 10px auto;
+    width: 100%;
+    /* margin: 0 auto !important; */
     background-image: url(images/architect.png);
     background-repeat: no-repeat;
-    position: relative;
+    background-size: contain;
     border-radius: 5px;
 }
 .experience{
-    height: 140px;
-    width: 200px;
+    height: 100px;
+    width: 160px;
     background-color: #FF900E;
     color: #fff;
     border: none;
     border-radius: 5px;
-    margin-top: 830px;
-    margin-left: 80px;
-    padding-left: 70px;
-    align-items: center;
-    justify-content: center;
+    margin-top: 630px;
+    margin-left: 60px;
+    padding-left: 50px;
+}
+.experience_1st_p{
+    font-size: 25px;
+}
+.experience_2nd_p{
+    font-size: 20px;
+    padding-left: 5px !important;
 }
 /* section two ends */
 
@@ -334,6 +342,18 @@ nav{
 .section_three_2nd_div{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+}
+/* section three ends */
+
+
+
+.section_four_2nd_div{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+footer{
+    height: 80px;
 
 }
    
