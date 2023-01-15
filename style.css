@@ -121,13 +121,16 @@ nav{
 .header_div_2 > img{
         width: 100%;
         height: auto;
-        /* height: 300px;
-        width: 450px; */
+        /* height: 300px; */
+        width: 450px;
         border-radius: 4px;
     }
 
 .section_2nd_1st_div, .section_2nd_1st_div{
     width: 100%;
+}
+.section_2nd_2nd_div{
+    margin: 5px 15px;
 }
 
 
