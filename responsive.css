@@ -1,0 +1,107 @@
+
+/* Media Query */
+
+/* header starts */
+
+@media screen and (max-width: 576px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .header_div_1{
+    justify-content: center;
+    text-align: center;
+}
+    .header_div_2{
+        margin: 10px auto;
+    }
+    .header_div_2 > img{
+        max-width: 90%;
+        height: auto;
+        border-radius: 4px;
+        margin: 10px auto;
+    }
+
+/* header ends */
+
+/* section one starts */
+.section_one{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* margin: 3px 10px; */
+}
+.section_2nd_1st_div > img{
+        width: 100%;
+        height: auto;
+        /* height: 300px; */
+        width: 450px;
+        border-radius: 4px;
+    }
+
+.section_2nd_1st_div, .section_2nd_1st_div{
+    width: 100%;
+}
+.section_2nd_texts{
+    justify-content: center;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.section_2nd_texts> h2{
+    font-size: 25px;
+    /* text-align: center; */
+}
+.section_2nd_texts> p{
+    font-size: 16px;
+    /* text-align: center; */
+}
+
+/* section one ends */
+
+/* section two starts */
+.section_two{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.section_two_border{
+    height: 70px;
+    border-left: 4px solid #FF900E;
+}
+.section_two_heading{
+    padding: 5px 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.section_two_right{
+    width: 100%;
+    height: auto;
+    background-image: url(images/architect.png);
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 5px;
+}
+.experience{
+    height: 140px;
+    width: 200px;
+    background-color: #FF900E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 940px;
+    margin-left: 90px;
+    padding-left: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+    
+}
