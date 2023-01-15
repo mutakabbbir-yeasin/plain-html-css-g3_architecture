@@ -59,7 +59,6 @@ nav{
 
 .section_2nd_1st_div{
     width: 55%;
-    align-items: flex-end;
 }
 
 .section_2nd_img{
@@ -70,7 +69,6 @@ nav{
 
 .section_2nd_2nd_div{
     width: 45%;
-    align-items: flex-start;
 }
 .section_2nd_texts{
     width: 400px;
@@ -120,6 +118,18 @@ nav{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
+.header_div_2 > img{
+        /* max-width: 90%;
+        height: auto; */
+        height: 300px;
+        width: 450px;
+        border-radius: 4px;
+    }
+
+.section_2nd_1st_div, .section_2nd_1st_div{
+    width: 100%;
+}
+
 
 /* section one ends */
     
