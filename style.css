@@ -129,8 +129,10 @@ nav{
 .section_2nd_1st_div, .section_2nd_1st_div{
     width: 100%;
 }
-.section_2nd_2nd_div{
-    margin: 5px 15px;
+.section_2nd_texts{
+    justify-content: center;
+    text-align: center;
+    margin: 5px auto;
 }
 
 
