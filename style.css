@@ -4,13 +4,11 @@ body{
 }
 
 
-/* header section */
+/* header section starts */
 
 .header{
     background-color: #FFF4E7;
     padding: 20px 0;
-    /* height: 100vh; */
-    /* z-index: 1; */
 }
 nav{
     display: flex;
@@ -33,9 +31,7 @@ nav{
 }
 .header_div_2{
     margin: 30px 0;
-    /* justify-content: center; */
     text-align: center;
-
 }
 .header_div_2 > img {
   border: none;
@@ -43,30 +39,27 @@ nav{
   padding: 5px;
   width: 1000px;
   height: auto;
-  
 }
+/* header section ends */
 
 
-/* section second */
+
+/* section second starts */
 .section_one{
     display: flex;
-    /* gap: 7px; */
     justify-content: center;
     text-align: center;
     margin: 80px auto;
     width: 70%;
 }
-
 .section_2nd_1st_div{
     width: 55%;
 }
-
 .section_2nd_img{
     height: 225px;
     width: 230px;
     margin: 5px;
 }
-
 .section_2nd_2nd_div{
     width: 45%;
 }
@@ -75,7 +68,6 @@ nav{
     text-align: left;
     margin: 20% 0;
     padding: 0 10px;
-
 }
 .section_2nd_texts>h2{
     font-size: 30px;
@@ -85,32 +77,26 @@ nav{
     line-height: 25px;
     color: #727272;
 }
+/* section second ends */
 
 /* section two starts */
 .section_two{
     margin: 80px auto;
     width: 80%;
     display: flex;
-    /* justify-content: center;
-    text-align: center; */
-    /* margin: 80px auto; */
 }
 .section_two_left{
     width: 50%;
     padding: 10px 20px;
-    /* z-index: 2; */
 }
 .section_two_border{
     height: 85px;
-    /* width: 300px; */
     border-left: 4px solid #FF900E;
 }
 .section_two_heading{
     padding: 5px 20px;
     font-size: 35px;
     font-weight: 600;
-    /* border-left: 3px solid #FF900E; */
-
 }
 .box{
     height: 115px;
@@ -120,20 +106,15 @@ nav{
     margin: 10px 0;
     box-shadow: 0 4px 8px 5px #F9F9F9, 5px 6px 30px 5px #F9F9F9;
 }
-
 .section_two_right{
     width: 50%;
     height: 900px;
     background-image: url(images/architect.png);
-    /* background-size: cover; */
     background-position: 90%;
     background-repeat: no-repeat;
-    /* background-size: cover; */
     position: relative;
     border-radius: 5px;
-    /* z-index: 1; */
 }
-
 .experience{
     height: 140px;
     width: 200px;
@@ -159,32 +140,30 @@ nav{
 .experience_2nd_p{
     font-size: 25px;
     font-weight: 400;
-    /* margin: 40px 0 0 0 !important; */
     margin: 0 !important;
-    /* padding: 0 !important; */
     justify-content: center;
     align-items: center;
     padding-left: 25px;
 
 }
-
 /* section two ends */
 
+
 /* section three starts */
-.three{
+.section_three{
     width: 70%;
-    margin: 200px auto;
+    margin: 150px auto;
 }
 .section_three_1st_div{
     margin-bottom: 80px;
 }
-.section_three_heding{
+.section_three_heading{
     font-size: 40px;
     font-weight: bold;
     margin: 10px 0 !important;
 }
 .section_three_paragraph{
-    font-size: 18px;
+    font-size: 16px;
     color: #7f7d7d;
     margin: 0 !important;
 }
@@ -207,11 +186,47 @@ nav{
 .section_three_box_middle{
     padding: 15px 0;
 }
+/* section three ends */
 
 
 
+/* section four starts */
+.section_four{
+    width: 80%;
+    margin: 50px auto;
+}
+.section_four_1st_div{
+    text-align: center;
+}
+.section_four_paragraph{
+    font-size: 16px;
+    color: #7f7d7d;
+}
+.section_four_2nd_div{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 50px auto;
+}
+
+/* section four ends */
 
 
+/* footer starts */
+ footer{
+    width: 70%;
+    height: 60px;
+    background-color: #FFF4E7;
+    margin: 80px auto;
+    text-align: center;
+    border-radius: 5px;
+ }
+ .footer_para{
+    padding-top: 20px;
+    color: #76736F;
+ }
+/* footer ends */
 
 
 
@@ -247,12 +262,10 @@ nav{
 .section_one{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    /* margin: 3px 10px; */
 }
 .section_2nd_1st_div > img{
         width: 100%;
         height: auto;
-        /* height: 300px; */
         width: 450px;
         border-radius: 4px;
     }
@@ -268,14 +281,13 @@ nav{
 
 .section_2nd_texts> h2{
     font-size: 25px;
-    /* text-align: center; */
 }
 .section_2nd_texts> p{
     font-size: 16px;
-    /* text-align: center; */
 }
 
 /* section one ends */
+
 
 /* section two starts */
 .section_two{
@@ -293,11 +305,9 @@ nav{
 }
 .box{
     height: 115px;
-    /* width: 375px; */
 }
 .section_two_right{
     width: 90%;
-    /* height: auto; */
     margin: 10px auto;
     background-image: url(images/architect.png);
     background-repeat: no-repeat;
@@ -317,8 +327,7 @@ nav{
     align-items: center;
     justify-content: center;
 }
-
-
+/* section two ends */
 
 
 /* section three starts */
@@ -327,13 +336,7 @@ nav{
     grid-template-columns: repeat(1, 1fr);
 
 }
-
-
-
-
-
-
-    
+   
 }
 
 
